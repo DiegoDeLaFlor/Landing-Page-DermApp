@@ -9,6 +9,11 @@
     --sand: #E3D3CA;
     --white: #ffffff;
 }
+a{
+text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
 
 *{
     margin: 0;
@@ -270,6 +275,7 @@ button:hover{
     gap: 1em;
     overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
 }
 .card-text{
     display: grid;
@@ -285,6 +291,7 @@ button:hover{
 }
 
 /*Plans & Pricing*/
+
 .price{
     margin-top: 100px;
     text-align: center;
@@ -352,7 +359,6 @@ button:hover{
     margin: 0 auto;
 }
 
-/*Demo*/
 .demo{
     margin-top: 120px;
     text-align: center;
@@ -518,7 +524,7 @@ footer .social-links:nth-last-of-type(3){
         flex-direction: column;
     }
     .footer-content-container{
-       width: 100%;
+        width: 100%;
         padding: 2rem 0;
         border-bottom: 1px solid #2a2a2a;
         justify-content: center;
@@ -528,7 +534,7 @@ footer .social-links:nth-last-of-type(3){
         align-items: flex-start;
     }
     .footer-content-container:nth-of-type(3){
-                padding-bottom: 0;
+        padding-bottom: 0;
     }
     .footer-menus{
         width: 100%;
